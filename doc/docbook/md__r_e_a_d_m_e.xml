@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__r_e_a_d_m_e" xml:lang="en-US">
+<title>Inheritance</title>
+<indexterm><primary>Inheritance</primary></indexterm>
+
+<para><anchor xml:id="_md__r_e_a_d_m_e_1autotoc_md1"/> </para>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md2">
+<title>Documentation</title>
+
+<para><itemizedlist>
+<listitem>
+<para><link xlink:href="https://una-eif201-progra1-master.github.io/dev.funda.oop-inheritance/">Technical pages</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://mikeguzman.dev/software-development/programming-fundations/object-oriented-programming/">Course website</link></para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md3">
+<title>Resources</title>
+
+<para><itemizedlist>
+<listitem>
+<para><link xlink:href="https://cmake.org/cmake/help/latest/guide/tutorial/index.html">CMake</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://www.jetbrains.com/help/clion/quick-cmake-tutorial.html">CLion from Jetbrains</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://code.visualstudio.com/docs/languages/cpp">Visual Studio Code</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://replit.com/@MaikolGuzman?path=folder/EIF201%20-%20Progra%201">Repl.it</link></para>
+</listitem><listitem>
+<para><link xlink:href="https://github.com/una-eif201-progra1-master">Github Course Space</link></para>
+</listitem></itemizedlist>
+</para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md4">
+<title>Project Directory Structure</title>
+
+<para><literallayout><computeroutput>MyProject/
+│
+├──&#32;.github/workflows&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[optional]&#32;GitHub&#32;Actions&#32;workflow&#32;files
+├──&#32;docs/&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[optional]&#32;Documentation&#32;files│
+├──&#32;src/&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[required]&#32;Source&#32;files&#32;directory
+│&#32;&#32;&#32;├──&#32;main.cpp&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[required]&#32;Main&#32;program&#32;file
+│&#32;&#32;&#32;└──&#32;MyClass.cpp&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;Implementation&#32;of&#32;MyClass
+│
+├──&#32;include/&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[required]&#32;Header&#32;files&#32;directory
+│&#32;&#32;&#32;└──&#32;MyClass.h&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;Header&#32;for&#32;MyClass
+│
+├──&#32;.gitignore&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[required]&#32;Git&#32;ignore&#32;file
+├──&#32;.replit&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[optional]&#32;Repl.it&#32;configuration&#32;file
+├──&#32;replit.nix&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[optional]&#32;Repl.it&#32;configuration&#32;file
+├──&#32;CMakeLists.txt&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[required]&#32;CMake&#32;configuration&#32;file
+└──&#32;README.md&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;#&#32;[required]&#32;README&#32;file
+</computeroutput></literallayout></para>
+
+<para><orderedlist>
+<listitem>
+<para>**.github/workflows**: This is a directory typically used in GitHub repositories for storing workflow files. GitHub workflows are part of GitHub Actions, which automate certain processes in a software development workflow, like running tests, deploying code, or other CI/CD (Continuous Integration/Continuous Deployment) tasks.</para>
+</listitem><listitem>
+<para><emphasis role="bold">docs/html</emphasis>: This looks like a directory within the <computeroutput>docs</computeroutput> folder, likely used for storing HTML files related to documentation. The commit message &quot;Final changes&quot; tagged as &quot;now&quot; indicates recent updates or finalization of the documentation in HTML format.</para>
+</listitem><listitem>
+<para><emphasis role="bold">include</emphasis>: This is commonly a directory containing header files in C or C++ projects, but it can also include other types of files in different contexts.<orderedlist>
+<listitem>
+<para><computeroutput>MyClass.h</computeroutput>: This contains the declarations of your class or functions.</para>
+</listitem></orderedlist>
+</para>
+</listitem><listitem>
+<para><emphasis role="bold">src</emphasis>: Short for &quot;source&quot;, this directory usually contains the source code of the project.<orderedlist>
+<listitem>
+<para><computeroutput><link linkend="_main_8cpp">main.cpp</link></computeroutput>: This is the entry point of your program.</para>
+</listitem><listitem>
+<para><computeroutput>MyClass.cpp</computeroutput>: This contains the implementation of a class or functions.</para>
+</listitem></orderedlist>
+</para>
+</listitem><listitem>
+<para>**.gitignore**: This is a special file used by Git, the version control system. It tells Git which files or directories to ignore in a project, usually things like build outputs, temporary files, or files containing sensitive information.</para>
+</listitem><listitem>
+<para>**.replit**: This file is specific to Repl.it, an online IDE (Integrated Development Environment). It&apos;s used to configure the Repl.it environment, such as specifying the language, build, and run commands.</para>
+</listitem><listitem>
+<para><emphasis role="bold">CMakeLists.txt</emphasis>: This is a file used by CMake, a build system that manages the build process in an operating system and compiler-independent manner.</para>
+</listitem><listitem>
+<para><emphasis role="bold">README.md</emphasis>: This file, typically written in Markdown, provides an overview of the project, including instructions on how to install, configure, and use it.</para>
+</listitem><listitem>
+<para><emphasis role="bold">replit.nix</emphasis>: This is likely a configuration file for Nix, a powerful package manager, used in the context of Repl.it. It specifies dependencies and environment settings for the project.</para>
+</listitem></orderedlist>
+</para>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md5">
+<title>Building the Project</title>
+
+<para><orderedlist>
+<listitem>
+<para><emphasis role="bold">Creating a Build Directory</emphasis>: It&apos;s a good practice to do an out-of-source build. This keeps your build files separate from your source files.</para>
+
+<para><literallayout><computeroutput>mkdir&#32;build
+cd&#32;build
+</computeroutput></literallayout></para>
+</listitem><listitem>
+<para><emphasis role="bold">Running CMake</emphasis>: From within the <computeroutput>build</computeroutput> directory, run CMake to generate the build system.</para>
+
+<para><literallayout><computeroutput>cmake&#32;..
+</computeroutput></literallayout></para>
+</listitem><listitem>
+<para><emphasis role="bold">Compiling the Project</emphasis>: After CMake has done its job, you can use the generated build system to compile the project.</para>
+
+<para><literallayout><computeroutput>make
+</computeroutput></literallayout></para>
+
+<para>This will compile your project and generate an executable in the <computeroutput>build</computeroutput> directory.</para>
+</listitem></orderedlist>
+</para>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md6">
+<title>Notes</title>
+
+<para><itemizedlist>
+<listitem>
+<para><emphasis role="bold">CMake Version</emphasis>: Make sure to specify the minimum required version of CMake that your project needs.</para>
+</listitem><listitem>
+<para><emphasis role="bold">Project Structure</emphasis>: This is a simple example. Larger projects may have more complex structures, with subdirectories for different modules, tests, third-party libraries, etc.</para>
+</listitem><listitem>
+<para><emphasis role="bold">C++ Standard</emphasis>: Set the C++ standard according to your project requirements.</para>
+</listitem><listitem>
+<para><emphasis role="bold">Include Directories</emphasis>: Use <computeroutput>include_directories</computeroutput> to include your header files.</para>
+</listitem><listitem>
+<para><emphasis role="bold">Executable</emphasis>: Use <computeroutput>add_executable</computeroutput> to specify the executable name and the source files required to build it.</para>
+</listitem></itemizedlist>
+</para>
+
+<para>This structure is scalable and can be expanded as your project grows, by adding more source files, headers, and potentially CMake configuration files in subdirectories.</para>
+</section>
+</section>
+<section xml:id="_md__r_e_a_d_m_e_1autotoc_md7">
+<title>The Example</title>
+
+<para><literallayout><computeroutput>&#32;++
+//&#32;Example&#32;of&#32;Inheritance
+class&#32;Vehicle&#32;{
+public:
+string&#32;brand&#32;=&#32;&quot;Ford&quot;;
+
+void&#32;honk()&#32;{
+cout&#32;&lt;&lt;&#32;&quot;Tuut,&#32;tuut!&quot;&#32;&lt;&lt;&#32;endl;
+}
+};
+
+class&#32;Car:
+public&#32;Vehicle&#32;{
+public:
+string&#32;model&#32;=&#32;&quot;Mustang&quot;;
+};
+
+int&#32;main()&#32;{
+Car&#32;car1;
+car1.honk();&#32;&#32;//&#32;Output:&#32;Tuut,&#32;tuut!
+cout&#32;&lt;&lt;&#32;car1.brand&#32;+&#32;&quot;&#32;&quot;&#32;+&#32;car1.model;&#32;&#32;//&#32;Output:&#32;Ford&#32;Mustang
+return&#32;0;
+}
+</computeroutput></literallayout></para>
+
+<para><computeroutput><link linkend="_class_car">Car</link></computeroutput> is a derived class that inherits from the base class <computeroutput>Vehicle</computeroutput>. </para>
+</section>
+</section>

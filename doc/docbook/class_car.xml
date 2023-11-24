@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_car" xml:lang="en-US">
+<title>Car Class Reference</title>
+<indexterm><primary>Car</primary></indexterm>
+<para>
+
+<para>The class <link linkend="_class_car">Car</link> is the base class. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Car.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_car_1a703ae5735a5adf86cd962fe2cc77c8b1"/><emphasis role="strong">Car</emphasis> (std::string c, int s)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_car_1a2296bcdfcae14c562cae0402e9333847"/>void <emphasis role="strong">accelerate</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_car_1a88d53ead81ee86280db90a8cb4fdc545"/>void <emphasis role="strong">display</emphasis> () const</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_car_1a7e9d78955e99df7cd5b22c6079c9a4a0"/>void <emphasis role="strong">setColor</emphasis> (std::string c)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_car_1a0ddfc962565d1cd236894877f9f7212a"/>std::string <emphasis role="strong">getColor</emphasis> () const</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>The class <link linkend="_class_car">Car</link> is the base class. </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+include/<link linkend="__car_8h">Car.h</link></section>
+</section>

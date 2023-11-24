@@ -3,6 +3,12 @@
 //
 #include <iostream>
 #include <cstdlib>
+#include "ConditionalExample.h"
+#include "SwitchExample.h"
+#include "LoopExample.h"
+#include "VectorExample.h"
+#include "MatrixExample.h"
+#include "Car.h"
 
 /*!
  * \mainpage Technical documentation of the example.
@@ -32,7 +38,7 @@
  *
  * \section references References
  *
- * <a href="https://github.com/una-eif201-progra1-master/dev.funda.oop-inheritance">Github repository of the example</a>
+ * <a href="https://github.com/una-eif201-progra1-master/dev.funda.basic-class.objects.1">Github repository of the example</a>
  *
  * \date 2021-11-23
  * \author Maikol Guzman Alan
@@ -46,6 +52,24 @@ int main() {
     system("clear");
     std::cout << "Universidad Nacional de Costa Rica - www.mikeguzman.dev" << std::endl;
 
+    ConditionalExample ce;
+    ce.checkNumber(5);
+
+    SwitchExample se;
+    se.dayOfWeek(3);
+
+    LoopExample le;
+    le.printNumbers(5);
+
+    VectorExample ve;
+    auto vec = ve.createVector(10);
+
+    MatrixExample me;
+    auto mat = me.createMatrix(3, 3);
+
+    Car car("Red", 50);
+    car.accelerate();
+    car.display();
 
     std::cout << std::endl;
     return 0;

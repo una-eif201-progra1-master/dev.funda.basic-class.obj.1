@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_matrix_example" xml:lang="en-US">
+<title>MatrixExample Class Reference</title>
+<indexterm><primary>MatrixExample</primary></indexterm>
+<para>
+
+<para>This class is used to show how to use matrix. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;MatrixExample.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_matrix_example_1a78e4c3bb69d673c01cf354b7f0c71774"/>std::vector&lt; std::vector&lt; int &gt; &gt; <emphasis role="strong">createMatrix</emphasis> (int rows, int cols)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class is used to show how to use matrix. </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+include/MatrixExample.h</section>
+</section>

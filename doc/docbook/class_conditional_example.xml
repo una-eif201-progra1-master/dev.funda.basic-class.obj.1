@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_conditional_example" xml:lang="en-US">
+<title>ConditionalExample Class Reference</title>
+<indexterm><primary>ConditionalExample</primary></indexterm>
+<para>
+
+<para>This class is used to show how to use conditional statements. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;ConditionalExample.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_conditional_example_1afe1bd762ea7ee2cc98f7d1d9fa6a00ba"/>void <emphasis role="strong">checkNumber</emphasis> (int number)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class is used to show how to use conditional statements. </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+include/ConditionalExample.h</section>
+</section>

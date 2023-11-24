@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_vector_example" xml:lang="en-US">
+<title>VectorExample Class Reference</title>
+<indexterm><primary>VectorExample</primary></indexterm>
+<para>
+
+<para>This class is used to show how to use vectors. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;VectorExample.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_vector_example_1abbb1651d7110f3d1e40b083a4cca63de"/>std::vector&lt; int &gt; <emphasis role="strong">createVector</emphasis> (int size)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>This class is used to show how to use vectors. </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+include/VectorExample.h</section>
+</section>
