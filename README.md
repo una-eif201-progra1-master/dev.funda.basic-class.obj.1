@@ -3,7 +3,7 @@
 ## Documentation
 
 - [Technical pages](https://una-eif201-progra1-master.github.io/dev.funda.oop-inheritance/)
-- [Course website](https://mikeguzman.dev/software-development/programming-fundations/object-oriented-programming/)
+- [Course website](https://mikeguzman.dev/software-development/programming-fundations/)
 
 ## Resources
 
