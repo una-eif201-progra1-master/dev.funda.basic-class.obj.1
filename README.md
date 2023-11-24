@@ -103,30 +103,30 @@ MyProject/
 This structure is scalable and can be expanded as your project grows, by adding more source files, headers, and
 potentially CMake configuration files in subdirectories.
 
-## The Example
+## Usage Example
 
 ```c++
-// Example of Inheritance
-class Vehicle {
-public:
-string brand = "Ford";
-
-void honk() {
-cout << "Tuut, tuut!" << endl;
-}
-};
-
-class Car:
-public Vehicle {
-public:
-string model = "Mustang";
-};
-
 int main() {
-Car car1;
-car1.honk();  // Output: Tuut, tuut!
-cout << car1.brand + " " + car1.model;  // Output: Ford Mustang
-return 0;
+    ConditionalExample ce;
+    ce.checkNumber(5);
+
+    SwitchExample se;
+    se.dayOfWeek(3);
+
+    LoopExample le;
+    le.printNumbers(5);
+
+    VectorExample ve;
+    auto vec = ve.createVector(10);
+
+    MatrixExample me;
+    auto mat = me.createMatrix(3, 3);
+
+    Car car("Red", 50);
+    car.accelerate();
+    car.display();
+
+    return 0;
 }
 
 ```
